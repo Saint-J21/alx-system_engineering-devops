@@ -1,2 +1,2 @@
-#!/bin/bash
-cp current_directory*.html /alx-system_engineering-devops
+Â#!/bin/bash
+cp *.html ..

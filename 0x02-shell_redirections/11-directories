@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -ld .*/ | grep -v '^./$' | wc -l
+ls -ld .*/ */ | wc -l

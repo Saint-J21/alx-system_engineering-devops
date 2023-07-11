@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "obase=10; ibase=2" | dc <<<"$BINARY"
+echo "2i$BINARY p" | dc

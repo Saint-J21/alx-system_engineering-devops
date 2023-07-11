@@ -1,2 +1,2 @@
 #!/bin/bash
-compgen -veA function
+{ set -o posix; set; } | grep -E '^\w+=' | cut -d= -f1

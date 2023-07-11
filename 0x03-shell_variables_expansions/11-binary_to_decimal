@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "%s" "$(echo "ibase=2" | tr -d '\n')" "$(echo -n "$BINARY")"
+echo "obase=10; ibase=2; $BINARY" | dc

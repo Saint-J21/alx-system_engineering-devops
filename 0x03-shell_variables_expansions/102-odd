@@ -1,2 +1,2 @@
 #!/bin/bash
-mapfile -t lines < "$INPUT_FILE"; printf '%s\n' "${lines[@]::2}"
+mapfile -t lines; printf '%s\n' "${lines[@]::2}"

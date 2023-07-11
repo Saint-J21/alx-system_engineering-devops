@@ -1,2 +1,2 @@
 #!/bin/bash
-IFS=":"; set -- $PATH; echo $#
+IFS=":" read -ra dirs <<<"$PATH" | printf "%s\n" "${#dirs[@]}"

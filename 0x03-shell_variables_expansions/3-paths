@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -d $PATH/* 2>/dev/null | wc -l
+IFS=":" read -ra dirs <<<"$PATH" | printf "%s\n" "${dirs[@]}" | ls -d | wc -l

@@ -1,2 +1,2 @@
-#!/bin/bash
-echo "$TEXT" | tr 'A-Za-z' 'N-ZA-Mn-za-m'
+Â#!/bin/bash
+tr A-Za-z N-ZA-Mn-za-m

@@ -1,2 +1,2 @@
 #!/bin/bash
-dirs=($PATH) | echo ${#dirs[@]}
+ls -d $PATH/* | wc -l

@@ -1,2 +1,2 @@
 #!/bin/bash
-mapfile -t lines; printf '%s\n' "${lines[@]::2}"
+cat -n | cut -b 6- | grep ^[13579] | cut -f2
